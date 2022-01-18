@@ -6,6 +6,9 @@ export default class Comment extends BaseModel {
   public id: number
 
   @column()
+  public username: string
+
+  @column()
   public text: string
 
   @column()
